@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index,follow">
+    <meta name="description" content="A brief description of this website">
+    <meta http-equiv="refresh" content="30">
+    <title>learning and understanding css</title>
+    <!-- <p style="color:blue;background-color: aqua;">WE ARE LEARNING FRONT END WEB DEVELOPMENT</p> -->
+    <link rel="stylesheet" href="CODE.CSS">
+</head>
+<H1><strong>UNDERSTANDING CSS</strong></H1>
+
+<body>
+    <!-- inLINE css in HTNL-->
+    <!-- <p style="color:blue;background-color: aqua;">WE ARE LEARNING FRONT END WEB DEVELOPMENT</p> -->
+    <p>WE ARE LEARNING FRONT END WEB DEVELOPMENT</p>
+    <div class="box">Box 1</div>
+    <div class="box">Box 2</div>
+    <div class="box">Box 3</div>
+    <div id="header">This is the header</div>
+    <div id="footer">This is the footer</div>
+</body>
+
+</html>
+//CSS PART BELOW
+/* EXTERNAL CSS */
+p {
+    color: purple;
+}
+/* giving the color to the class in HTML USING EXTERNAL CSS */
+.box {
+    COLOR: RED;
+}
+/* GIVING COLOR TO ID */
+#header {  
+    COLOR: VIOLET;
+}
+
+#footer {
+    COLOR: GREEN;
+}
