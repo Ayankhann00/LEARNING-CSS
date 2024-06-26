@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index,follow">
+    <meta name="description" content="A brief description of this website">
+    <meta http-equiv="refresh" content="30">
+    <title>learning and understanding css</title>
+    <link rel="stylesheet" href="CODE.CSS">
+</head>
+<H1>
+    <bold>UNDERSTANDING CSS</bold>
+</H1>
+
+<body>
+    <p>WE ARE LEARNING FRONT END WEB DEVELOPMENT</p>
+    <p id="lorem1">Lorem,ipsum dolor sit amet consectetur adipisicing elit. Numquam nemo voluptas quaerat consectetur
+        iure ratione mollitia, est rem quo. Quasi!</p>
+    <p id="lorem2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, veniam.</p>
+    <span> Lorem ipsum dolor sit amet.</span>
+</body>
+
+</html>
+//CSS PART
+/* EXTERNAL CSS */
+
+#lorem1 {
+    color: aquamarine;
+    background-color: chocolate;
+}
+
+/* id selector */
+#lorem2 {
+    color: darkgreen;
+    background-color: firebrick;
+
+}
+
+/* GROUPING SELECTOR */
+bold,
+span {
+    color: lightseagreen;
+    background-color: yellow;
+    font-style: italic;
+}
+
+bold {
+    border: 3px solid blueviolet;
+}
