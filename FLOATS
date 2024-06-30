@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index,follow">
+    <meta name="description" content="A brief description of this website">
+    <meta http-equiv="refresh" content="30">
+    <title>learning and understanding css</title>
+    <link rel="stylesheet" href="CODE.CSS">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+ES+Deco:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<H1>
+    <bold>BOX-SIZING AND FLOAT IN CSS</bold>
+</H1>
+
+<body>
+    <div class="SUBJECT"></div>
+    <div id="MATHS"></div>
+    <h2>MATHS</h2>
+    <div id="MATHSPARA" class="PARA">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, quibusdam!
+    </div>
+    <div id="ENGLISH"></div>
+    <h2>ENGLISH</h2>
+    <div id="ENGLISHPARA" class="PARA">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, recusandae?
+    </div>
+    <div id="geography"></div>
+    <h2>geography</h2>
+    <div id="geographypara" class="PARA">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, nisi.
+    </div>
+</body>
+
+</html>
+body {
+    font-family: 'Playwrite ES Deco', sans-serif;
+    background-color: #f0f8ff;
+    /* Light blue background */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    /* Darker text color */
+    padding: 20px;
+    background-color: #e6e6e6;
+    /* Light grey background */
+    border-bottom: 2px solid #ccc;
+}
+
+.subject {
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 15px;
+    margin: 50px;
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: rgb(red, green, blue);
+    /* White background */
+}
+
+#maths,
+#english,
+#geography {
+    float: left;
+    width: 30%;
+    margin: 1.66%;
+    background-color: #cc871f;
+    /* Light coral background */
+    border: 2px solid #890909;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#maths {
+    background-color: rgb(200, 255, 380);
+    /* Light red background */
+}
+
+#english {
+    background-color: #0d9ccb;
+    /* Light blue background */
+}
+
+#geography {
+    background-color: #90ee90;
+    /* Light green background */
+}
+
+.para {
+    border: 1px solid #000;
+    padding: 10px;
+    background-color: #4e0b0b;
+    /* Very light grey background */
+    box-sizing: border-box;
+}
