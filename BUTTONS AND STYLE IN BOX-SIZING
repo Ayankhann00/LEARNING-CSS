@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index,follow">
+    <meta name="description" content="A brief description of this website">
+    <meta http-equiv="refresh" content="30">
+    <title>learning and understanding css</title>
+    <link rel="stylesheet" href="CODE.CSS">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+ES+Deco:wght@100..400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="class1" id="css">
+        <h3>STYLING AND BUTTONS IN CSS</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores enim eos id tempora sapiente! Sequi
+            aspernatur omnis odio nulla distinctio?</p>
+        <a href="http://google.com" class="button">FOLLOW THIS LINK</a>
+        <button class="btn">contact us</button>
+    </div>
+</body>
+
+</html>
+//CSS PART
+.class1 {
+    border: 2px solid crimson;
+    background-color: bisque;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    padding: 34px;
+    margin: 34px auto;
+}
+
+.btn {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    border: none;
+    padding: 6px;
+    background-color: cyan;
+    font-size: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 266, 267);
+    background-color: violet;
+}
+
+a:visited {
+    color: chartreuse;
+}
+
+.btn:visited {
+    color: blue;
+}
+
+.btn:hover {
+    color: chocolate;
+    background-color: coral;
+}
