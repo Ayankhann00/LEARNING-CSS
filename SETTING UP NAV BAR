@@ -1,0 +1,74 @@
+/* making a navigation bar/menu of a website using css */
+.navbar {
+    background-color: darkblue;
+    margin: 3px;
+    border-radius: 20px;
+
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar li {
+    list-style: none;
+    float: left;
+    padding: 4px 4px;
+    margin: 13px 23px;
+    color: white;
+}
+
+.search input[type="search"] {
+    padding: 5px 10px;
+    padding-top: 10px 15px;
+    padding-right: 10px;
+    border: 3px solid;
+    border-radius: 15px;
+    float: right;
+    width: 120px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    padding: 3px 3px;
+}
+
+.navbar li a:hover {
+    color: rgb(235, 60, 26);
+    border-radius: 5px;
+}
+//HTML PART
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index,follow">
+    <meta name="description" content="A brief description of this website">
+    <meta http-equiv="refresh" content="30">
+    <title>learning and understanding css</title>
+    <link rel="stylesheet" href="CODE.CSS">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+ES+Deco:wght@100..400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="http://google.com">Home</a></li>
+                <li><a href="http://youtube.com">About</a></li>
+                <li><a href="http://gmail.com">Services</a></li>
+                <li><a href="http://linkedin.com">Contact us</a></li>
+                <div class="search">
+                    <input type="search" placeholder="search this website">
+                </div>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>
