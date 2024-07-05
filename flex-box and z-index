@@ -1,0 +1,47 @@
+.largebox {
+    border: 3px solid red;
+    height: 250px;
+    width: 60%;
+    margin: 50px auto;
+}
+
+.box {
+    border: 2px solid greenyellow;
+    height: 40px;
+    width: 50%;
+    margin: 5px auto;
+    padding: 3px 3px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#box1 {
+    background-color: darkolivegreen;
+}
+
+#box2 {
+    background-color: blue;
+    z-index: 20px;
+    position: relative;
+}
+
+#box3 {
+    background-color: purple;
+    z-index: 35px;
+    top: 24px;
+}
+
+#box4 {
+    background-color: indianred;
+    z-index: 34px;
+}
+//html
+<body>
+    <div class="largebox">
+        <div class="box" id="box1"></div>
+        <div class="box" id="box2"></div>
+        <div class="box" id="box3"></div>
+        <div class="box" id="box4"></div>
+    </div>
+</body>
