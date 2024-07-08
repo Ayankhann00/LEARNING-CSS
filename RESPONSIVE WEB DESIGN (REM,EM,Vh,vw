@@ -1,0 +1,19 @@
+/* rem,em,vh and vw for responsive design */
+html {
+    font-size: 25px;
+}
+
+.container {
+    font-size: 10px;
+    border: 2px solid greenyellow;
+    min-height: 10vh;
+    min-width: 10vw;
+}
+
+.box1 {
+    font-size: 10rem;
+}
+
+.box2 {
+    font-size: 10em;
+}
