@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.box {
+    border: 2px solid red;
+    padding: 45px 40px;
+    margin: 19px 20px;
+    background-color: coral;
+    /* x-offset,y-offset,color ,blur radius,spread radius  */
+    box-shadow: 12px 13px 5px 5px lightgreen;
+    /* displays a shadow around the box  */
+}
+
+.box p {
+    text-shadow: 2px 3px white;
+}
