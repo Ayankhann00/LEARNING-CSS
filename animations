@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    background-color: brown;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    position: relative;
+    animation-name: movingbox;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 3;
+}
+
+@keyframes movingbox {
+    0% {
+        top: 50px;
+        left: 0px;
+    }
+
+    25% {
+        top: 250px;
+        right: 250px;
+    }
+
+    75% {
+        top: 275px;
+        left: 260px;
+    }
+
+    100% {
+        top: 290px;
+        right: 250px
+    }
+}
