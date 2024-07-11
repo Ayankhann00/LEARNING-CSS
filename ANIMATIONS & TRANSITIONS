@@ -36,3 +36,28 @@
         right: 250px
     }
 }
+//TRANSITIONS
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    font-size: 5px;
+    background-color: blue;
+    position: relative;
+    transition-property: background-color;
+    transition-timing-function: ease-in-out;
+    transition-duration: 3s;
+}
+
+.box:hover {
+    background-color: goldenrod;
+    height: 500px;
+    width: 500px;
+    font-size: 20px;
+    border-radius: 50px;
+}
