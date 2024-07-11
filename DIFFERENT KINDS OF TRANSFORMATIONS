@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    background-color: green;
+    position: relative;
+    border: 2px solid red;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.box:hover {
+    background-color: darksalmon;
+    transform: rotate(360deg);
+    transform: scale(45deg);
+    transform:translateX(30deg);
+    transform:translateY(30deg);
+    transform: skew(50deg);
+
+}
