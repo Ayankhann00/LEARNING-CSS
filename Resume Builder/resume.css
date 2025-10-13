@@ -1,5 +1,9 @@
 .resume-container {
-  max-width: 2500px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto 1fr auto;
+  gap: 20px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
   font-family: Arial, sans-serif;
@@ -9,6 +13,7 @@
 }
 
 header {
+  grid-column: 1 / span 12;
   text-align: center;
   border-bottom: 2px solid #6b2e87;
   padding-bottom: 10px;
@@ -26,10 +31,23 @@ header p {
   color: #8e5ea2;
 }
 
-.summary,
-.experience,
-.education,
+.summary {
+  grid-column: 1 / span 12;
+  margin-bottom: 20px;
+}
+
+.experience {
+  grid-column: 1 / span 8;
+  margin-bottom: 20px;
+}
+
+.education {
+  grid-column: 9 / span 4;
+  margin-bottom: 20px;
+}
+
 .skills {
+  grid-column: 1 / span 12;
   margin-bottom: 20px;
 }
 
@@ -90,6 +108,7 @@ h2 {
 }
 
 footer {
+  grid-column: 1 / span 12;
   text-align: center;
   padding-top: 20px;
   border-top: 1px solid #d1b3e0;
@@ -103,18 +122,32 @@ footer p:hover {
   transition: color 0.3s ease;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
+  .experience {
+    grid-column: 1 / span 12;
+  }
+
+  .education {
+    grid-column: 1 / span 12;
+  }
+
   .resume-container {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+
+  header {
     padding: 10px;
   }
-  header h1 {
-    font-size: 2em;
-  }
+
   .skills ul {
     flex-direction: column;
     align-items: center;
   }
-  .skills li {
-    margin-bottom: 5px;
-  }
 }
+
